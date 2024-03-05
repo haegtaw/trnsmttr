@@ -1,0 +1,26 @@
+package: github.com/nightwolf93/transmitter-server
+import:
+- package: github.com/sirupsen/logrus
+  version: ^1.0.5
+- package: gopkg.in/natefinch/lumberjack.v2
+  version: ^2.1.0
+- package: github.com/BurntSushi/toml
+  version: ^0.3.0
+- package: github.com/golang/protobuf
+  version: ^1.1.0
+  subpackages:
+  - protoc-gen-go
+- package: github.com/gorilla/websocket
+  version: ^1.2.0
+- package: github.com/x-cray/logrus-prefixed-formatter
+  version: ^0.5.2
+- package: github.com/mgutz/ansi
+- package: github.com/t-tomalak/logrus-easy-formatter
+- package: github.com/rs/xid
+  version: ^1.1.0
+- package: github.com/gorilla/mux
+  version: ^1.6.1
+- package: github.com/syndtr/goleveldb
+  subpackages:
+  - leveldb
+- package: github.com/golang/snappy
